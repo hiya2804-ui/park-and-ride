@@ -1,0 +1,158 @@
+Plus Points in Implementation (Overall Evaluation Criteria)
+1. Authentication:
+- Implement robust user authentication protocols to ensure secure access.
+2. Cost Estimation - Time and Space:
+- Conduct a thorough analysis of time and space complexity in the system.
+- Utilize efficient algorithms and data structures to optimize both time and space requirements.
+3. Handling System Failure Cases:
+- Implement fault-tolerant mechanisms to address system failures.
+- Employ backup and recovery strategies for data integrity.
+- Develop comprehensive error recovery procedures to minimize downtime.
+4. Object-Oriented Programming Language (OOPS):
+- Choose a robust OOPS language for structured and modular code.
+- Leverage OOPS principles such as encapsulation, inheritance, and polymorphism for maintainability and
+extensibility.
+5. Trade-offs in the System:
+- Clearly define and document trade-offs made during system design.
+- Evaluate and communicate the rationale behind architectural and design decisions.
+- Consider trade-offs in terms of performance, scalability, and maintainability.
+6. System Monitoring:
+- Implement comprehensive monitoring tools to track system performance.
+- Utilize real-time dashboards and logging mechanisms to promptly identify and address issues.
+7. Caching:
+- Integrate caching mechanisms to enhance system response times.
+- Utilize caching for frequently accessed data to reduce database load.
+- Implement cache eviction policies for optimal resource utilization.
+8. Error and Exception Handling:
+- Develop a robust error and exception handling framework.
+- Provide meaningful error messages for effective debugging.
+- Regularly review and update error-handling strategies based on system usage patterns.
+
+Instructions:
+1. Read and Understand the Problem Statement:
+- Carefully read the problem statement provided. Understand the requirements, inputs, expected outputs, and
+any constraints mentioned.
+2. Choose a Programming Language:
+- Select a programming language you are comfortable with and that is suitable for solving the problem described
+in the case study.
+
+3. Design Your Solution:
+- Plan the overall structure of your solution. Consider the algorithms, data structures, and any potential
+optimizations needed.
+4. Write the Code:
+- Implement your solution in code. Follow best practices for coding standards, such as meaningful variable names,
+proper indentation, and comments where necessary.
+- Break down the problem into smaller functions or modules to improve code readability and maintainability.
+5. Test Your Code:
+- Test your code thoroughly with different sets of input data, including edge cases and boundary conditions.
+- Ensure that your code produces the expected outputs for all test cases.
+7. Document Your Code :
+- Consider adding documentation or comments to explain the logic and purpose of your code, especially for
+complex parts or algorithms.
+8. Submit Your Solution:
+- Once you're satisfied with your code and it meets all the requirements, submit your solution on GitHub and
+share the GitHub link.
+9. Demonstration:
+- Include a demonstration video showcasing key features of the ride-sharing platform.
+- Alternatively, use screenshots to visually highlight the user interface and functionality.
+
+Park and Ride: Smart Parking & Last-Mile
+Connectivity Solution
+A Park and Ride system enhances urban mobility by integrating parking reservations and last-mile transportation
+options. This system allows commuters to pre-book parking spaces, seamlessly transition to public transport, and
+reserve last-mile rides, ensuring a smooth, efficient, and hassle-free travel experience. Below is a detailed
+breakdown of its functionalities:
+I. Seamless Parking Booking
+A real-time parking reservation system allows users to pre-book parking slots near metro stations, reducing
+last-minute parking stress.
+Key Features
+✅ Advance Booking System
+● Users can search for and book parking spaces near metro stations.
+● Reservation options for hourly, daily, or monthly parking.
+● Users receive a QR code or digital pass for contactless entry.
+✅ Smart Parking Spot Assignment
+
+● The system dynamically allocates parking spots based on real-time availability.
+● Ensures optimal space utilization by directing users to the nearest vacant slot.
+✅ Flexible Cancellation & Modifications
+● Users can cancel or modify their reservations before arrival.
+● Refund policies based on cancellation timing (e.g., full refund if canceled 2 hours before).
+✅ License Plate Recognition (LPR) & RFID Entry
+● Automated check-in/check-out using LPR cameras and RFID-enabled gates.
+● Reduces the need for manual intervention at entry points.
+🔹 Outcome:
+● No more last-minute parking struggles – users have a reserved spot before arrival.
+● Minimizes congestion at parking lots by optimizing space allocation.
+● Increases revenue for metro operators through digital pre-booking and subscription plans.
+II. Cab/Last-Mile Shuttle Integration
+Seamlessly connects commuters to cabs, e-rickshaws, or shuttle services from metro stations, ensuring efficient
+last-mile connectivity.
+Key Features
+✅ Multi-Modal Booking
+● Users can book a cab, shuttle, or e-rickshaw via the app upon exiting the metro station.
+● Auto-suggestions based on commute history and user preferences.
+✅ On-Demand & Scheduled Rides
+● Instant ride booking for immediate departure.
+● Pre-scheduled rides for a seamless transition from metro to final destination.
+✅ Pooling & Ride-Sharing Options
+● Shared shuttle/cab pooling to reduce costs.
+● AI-driven route optimization to minimize detours.
+✅ Integration with Public Transport
+● Users can view real-time bus & metro schedules to plan their journey.
+● Integration with metro cards & digital wallets for seamless payments.
+🔹 Outcome:
+● Eliminates last-mile travel challenges by providing instant ride options.
+● Reduces traffic congestion by promoting shared rides.
+● Enhances commuter experience through real-time ride tracking and reduced wait times.
+
+III. Availability Conflict Resolution
+To prevent overbooking and allocation errors, the system ensures real-time availability tracking and dynamic slot
+allocation.
+Key Features
+✅ Live Slot Tracking
+● The system continuously updates parking availability based on check-ins and check-outs.
+● Smart sensors & IoT-based tracking help detect occupied and free spaces.
+✅ Auto-Cancellation for No-Shows
+● Reserved slots are automatically released if a user doesn’t check in within a grace period.
+● Ensures fair allocation to other users in need of parking.
+✅ Dynamic Slot Reassignment
+● If a user arrives earlier than expected, the system automatically reallocates a vacant slot.
+● Prevents double booking through instant updates across all users.
+🔹 Outcome:
+● Reduces waiting time at parking entrances.
+● Prevents disputes over reservations by ensuring fair and accurate slot allocation.
+● Maximizes parking lot efficiency through real-time availability tracking.
+IV. Dynamic Pricing
+To balance demand and optimize revenue, parking fees and ride fares are adjusted dynamically based on traffic
+flow, peak hours, and occupancy levels.
+Key Features
+✅ Demand-Based Pricing
+● Prices are higher during peak hours to control demand.
+● Discounted rates during off-peak hours encourage more users.
+✅ Subscription Plans & Loyalty Rewards
+● Monthly subscriptions for frequent commuters.
+● Reward points for regular users, redeemable for discounts on parking and last-mile rides.
+✅ AI-Based Surge Pricing
+● Prices automatically adjust based on real-time traffic, weather, and event schedules.
+● Surge pricing ensures availability of parking spots for those who need them most.
+🔹 Outcome:
+
+● Encourages users to travel during off-peak hours, reducing congestion.
+● Increases revenue for metro operators while maintaining fair pricing.
+● Enhances parking availability by discouraging unnecessary long-term occupancy.
+V. Offline Mode Handling
+Ensures seamless operation even in low-connectivity zones such as metro stations and underground parking areas.
+Key Features
+✅ Offline Booking Access
+● Users can view existing reservations without an internet connection.
+● QR codes or digital passes are accessible offline for easy check-in.
+✅ Stored Navigation Routes
+● Users can preload maps of the parking area & metro station.
+● Voice-guided navigation to guide users to their reserved spot even without network access.
+✅ Auto-Sync on Reconnection
+● Once the device regains connectivity, all offline actions sync automatically.
+● Users receive pending notifications and ride updates.
+🔹 Outcome:
+● Ensures uninterrupted access to parking and ride details even in metro basements.
+● Prevents check-in delays due to network failures.
+● Enhances user experience with a smooth, hassle-free transition from parking to public transport.
